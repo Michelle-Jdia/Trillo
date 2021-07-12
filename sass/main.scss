@@ -1,12 +1,18 @@
-// @import "./abstracts/variables";
+@import "./abstracts/variables";
 // @import "./abstracts/mixins";
 
 @import "./base/base";
-// @import "./base/animations";
+@import "./base/animations";
 // @import "./base/utilities";
 
 @import "./layout/header";
-
-@import"./components/components";
+@import "./layout/layout";
+@import "./components/components";
+@import "./components/header-bar";
+@import "./components/side-nav";
+@import "./components/gallery";
+@import "./components/btn";
+@import "./components/review";
+@import "./components/list";
 
 // @import "./layout/footer";
