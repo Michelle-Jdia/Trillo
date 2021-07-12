@@ -4,6 +4,12 @@
 	background-color: var(--color-grey-light-1);
 	box-shadow: var(--shadow-dark);
 	min-height: 50rem;
+
+	@media Only screen and (max-width: $bp-largest) {
+		margin: 0;
+		max-width: 100%;
+		width: 100%;
+	}
 }
 
 .header {
@@ -15,8 +21,18 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	@media Only screen and (max-width: $bp-smallest) {
+		flex-wrap: wrap;
+		align-content: space-around;
+		height: 11rem;
+	}
 }
 
 .content {
 	display: flex;
+
+	@media Only screen and (max-width: $bp-medium) {
+		flex-direction: column;
+	}
 }
